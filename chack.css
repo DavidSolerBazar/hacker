@@ -1,0 +1,162 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+@font-face {
+    font-family: "poner cualquier nombre";
+    src: url("poner ruta");}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url(img/fons.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 80px;
+}
+header nav{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+header nav a{
+    display: inline-block;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    width: 160px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+.item-submenu{
+    position: relative;
+    
+}
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    
+}
+.item-submenu:hover .submenu{
+    display: block;
+}
+.submenu a {
+    display: inline-block;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    width: 160px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    background-color: black;
+  }
+  header a:hover{
+    background-color: yellow;
+    color: black;
+  }
+  main{
+    text-align: center;
+  }
+ .articulos {
+    display: grid;
+    grid-template-columns: 700px auto;
+    justify-content: center;
+  }
+  article h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .art1{ 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 660px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+  .tar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    column-gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .tar1{
+    background-image: url(img/hacker-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 332px 200px;
+    background-color: rgb(243, 233, 233);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 350px;
+    width: 332px;
+    box-shadow: -1px 14px 15px -9px rgba(0,0,0,0.82);
+  }
+  .tar1 p:first-child{
+    margin-top: 220px;
+    color: black;
+  }
+  .tar1 p:nth-child(2){
+    margin-top: 20px;
+  }
+  .tar1 p:nth-child(3){
+    margin-top: 20px;
+  }
+  .tar1 p{
+    color: black;
+  }
+  footer{
+   
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
+  .listas{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 20px;
+  }
+  .list1, .list2{
+    margin-right: 70px;
+  }
+  li{
+    margin-top: 20px;
+  }
+  li:hover{
+    color: green;
+    cursor: pointer;
+  }
+  .contacto{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+  }
+  button{
+    background-color: green;
+    color: white;
+  }
+  .copy{
+    background-color: rgb(90, 95, 90);
+    text-align: center;
+    padding: 20px 20px;
+    color: green;
+  }
